@@ -1,12 +1,12 @@
-# Twilio SMS for Salesforce Marketing Cloud Journey Builder 
-### Starter template for creating a Twilio SMS activity in Journey Builder using Heroku
+# WhatsApp for Salesforce Marketing Cloud Journey Builder 
+### Starter template for creating a WhatsApp activity in Journey Builder using Heroku
 
 **NOTE:** This app and the associated code is NOT production quality, its pure purpose is to demonstrate the full flow of custom interactions in Journey Builder
 
 ### Pre-Requisites
 
 * Node.js and npm installed (if you’d like to test locally)
-* A Twilio account [sign up for a free Twilio account here](https://www.twilio.com/try-twilio)
+* A WhatsApp Business Account
 * A Marketing Cloud Account with Journey Builder
 * A publicly accessible web server (this template was built using a free Heroku account with SSL support)
 
@@ -26,15 +26,6 @@ This guide covers Heroku, skip this step if you are familiar on how to deploy a 
 7. Once your branch is deployed, click on the "View" button and verify you see the welcome message
 8. Click on “Open App” and copy the URL for your application.  Save for use later.
 
-#### Configuring your Twilio account (Messaging Service recommended) 
-
-1. Login to the Twilio console and navigate to the home screen and click on settings
-2. Copy your Account SID and your Auth Token and save it for later
-3. Then navigate to Programmable SMS and click on SMS
-4. If you don’t already have a Messaging Service setup, please review this [guide](https://www.twilio.com/docs/sms/services)
-5. Click on the Messaging Service you would like to use and copy the Service SID and save it for later
-
-While you can certainly tweak this example to send directly from a short code, you’ll have more flexibility when it comes to how you want to configure additional features around a messaging service; Copilot, advanced opt-out management, sticky sender, area code and country code geomatch.
 
 #### Configure your package in Marketing Cloud
 
