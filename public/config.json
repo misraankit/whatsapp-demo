@@ -7,7 +7,7 @@
     "type": "REST",
     "lang": {
        "en-US": {
-           "name": "WhatsApp Message",
+           "name": "WhatsApp",
            "description": "Send WhatsApp with Journey Builder",
            "WhatsAppMessage":"test"
        }
